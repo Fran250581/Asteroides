@@ -11,6 +11,7 @@
     <!-- Menu key. -->
     <string name="btn_configurar">Setup</string>
     <string name="btn_acerca_de">About …</string>
+    <string name="buscar">Search</string>
 
     <!-- Dialog About ... -->
     <string name="acercaDe" translatable="false">

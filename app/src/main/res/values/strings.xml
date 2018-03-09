@@ -4,12 +4,13 @@
     <!-- Menú principal. -->
     <string name="Jugar">JUGAR</string>
     <string name="Configurar">CONFIGURAR</string>
-    <string name="Acercade">ACERCA DE ...</string>
+    <string name="Acercade">ACERCA DE …</string>
     <string name="Salir">SALIR</string>
 
     <!-- Tecla menú. -->
     <string name="btn_configurar">Configurar</string>
-    <string name="btn_acerca_de">Acerca de  ...</string>
+    <string name="btn_acerca_de">Acerca de …</string>
+    <string name="buscar">Buscar</string>
 
     <!-- Diálogo Acerca de... -->
     <string name="acercaDe" translatable="false">

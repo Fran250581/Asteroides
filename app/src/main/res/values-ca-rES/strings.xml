@@ -11,6 +11,7 @@
     <!-- Tecla menú. -->
     <string name="btn_configurar">Configurar</string>
     <string name="btn_acerca_de">Tocan a …</string>
+    <string name="buscar">Cercar</string>
 
     <!-- Diàleg Tocan a... -->
     <string name="acercaDe" translatable="false">
