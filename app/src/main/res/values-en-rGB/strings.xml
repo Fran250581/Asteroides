@@ -8,7 +8,11 @@
     <string name="Acercade">ABOUT …</string>
     <string name="Salir">EXIT</string>
 
-    <!-- Diálogo Acerca de... -->
+    <!-- Menu key. -->
+    <string name="btn_configurar">Setup</string>
+    <string name="btn_acerca_de">About …</string>
+
+    <!-- Dialog About ... -->
     <string name="acercaDe" translatable="false">
     <![CDATA[<p>This <i>application</i> is being developed as
     example in the course of <b>Android</b>.</p><p> To launch this

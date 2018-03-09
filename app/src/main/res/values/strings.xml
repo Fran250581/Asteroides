@@ -7,6 +7,10 @@
     <string name="Acercade">ACERCA DE ...</string>
     <string name="Salir">SALIR</string>
 
+    <!-- Tecla menú. -->
+    <string name="btn_configurar">Configurar</string>
+    <string name="btn_acerca_de">Acerca de  ...</string>
+
     <!-- Diálogo Acerca de... -->
     <string name="acercaDe" translatable="false">
     <![CDATA[<p>Esta <i>aplicación</i> está siendo desarrollada como

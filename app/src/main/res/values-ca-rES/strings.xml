@@ -8,7 +8,11 @@
     <string name="Acercade">TOCANT A …</string>
     <string name="Salir">EIXIR</string>
 
-    <!-- Diálogo Acerca de... -->
+    <!-- Tecla menú. -->
+    <string name="btn_configurar">Configurar</string>
+    <string name="btn_acerca_de">Tocan a …</string>
+
+    <!-- Diàleg Tocan a... -->
     <string name="acercaDe" translatable="false">
     <![CDATA[<p>Aquesta <i>aplicació</i> està sent desenvolupada com
     exemple en el curs d\'<b>Android</b>.</p><p> Per llançar aquesta
