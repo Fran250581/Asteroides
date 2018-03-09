@@ -7,4 +7,13 @@
     <string name="Acercade">ACERCA DE ...</string>
     <string name="Salir">SALIR</string>
 
+    <!-- Diálogo Acerca de... -->
+    <string name="acercaDe" translatable="false">
+    <![CDATA[<p>Esta <i>aplicación</i> está siendo desarrollada como
+    ejemplo en el curso de <b>Android</b>.</p><p> Para lanzar esta
+    pantalla de información se ha creado una nueva <u>Activity</u>
+    que lanza esta nueva View.</p>
+    <p> Esperemos que os guste.</p>]]>
+    </string>
+
 </resources>

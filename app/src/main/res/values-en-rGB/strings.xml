@@ -5,7 +5,16 @@
     <!-- Main menu. -->
     <string name="Jugar">PLAY</string>
     <string name="Configurar">SETUP</string>
-    <string name="Acercade">ABOUT ...</string>
+    <string name="Acercade">ABOUT …</string>
     <string name="Salir">EXIT</string>
+
+    <!-- Diálogo Acerca de... -->
+    <string name="acercaDe" translatable="false">
+    <![CDATA[<p>This <i>application</i> is being developed as
+    example in the course of <b>Android</b>.</p><p> To launch this
+    Information screen has been created a new <u>Activity</u>
+    that launches this new View.</p>
+    <p>Let's hope I wish you like it.</p>]]>
+    </string>
 
 </resources>
