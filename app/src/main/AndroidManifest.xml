@@ -23,6 +23,7 @@
 
         <activity android:name=".Prefs"/>
         <activity android:name=".PrefsActivity"/>
+        <activity android:name=".Puntuaciones"/>
 
     </application>
 

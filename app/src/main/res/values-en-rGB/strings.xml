@@ -39,4 +39,8 @@
     <string name="cabecera_general">General configuration</string>
     <string name="cabecera_multijugador">Multiplayer</string>
 
+    <!-- List Scores. -->
+    <string name="hay_Puntuaciones">Scores</string>
+    <string name="no_hay_puntuaciones">No rating</string>
+
 </resources>

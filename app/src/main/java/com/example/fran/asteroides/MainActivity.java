@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static AlmacenPuntuaciones almacen = AlmacenPuntuacionesArray.getInstance();
 
+    public static AlmacenPuntuaciones getAlmacen() {
+        return almacen;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         configurar.setOnClickListener(this);
         Button jugar = findViewById(R.id.botonJugar);
         jugar.setOnClickListener(this);
+        Button puntuaciones = findViewById(R.id.botonPuntuaciones);
+        puntuaciones.setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +45,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (v.getId()==R.id.botonAcercaDe) {
             Intent i = new Intent(this, AcercaDe.class);
+            startActivity(i);
+        }
+        if (v.getId()==R.id.botonPuntuaciones) {
+            Intent i = new Intent(this, Puntuaciones.class);
             startActivity(i);
         }
     }
@@ -82,11 +92,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String s = "música: "+ pref.getBoolean("musica",true)
                 +", gráficos: " + pref.getString("graficos","?");
         Toast.makeText(this, s, Toast.LENGTH_LONG).show();
-    }
-
-    //Botón Salir
-    public void salir(View v) {
-        finish();
     }
 
 }

@@ -39,4 +39,8 @@
     <string name="cabecera_general">Configuració general</string>
     <string name="cabecera_multijugador">Multijugador</string>
 
+    <!-- Llista Puntuacions. -->
+    <string name="hay_Puntuaciones">Puntuacions</string>
+    <string name="no_hay_puntuaciones">No hi ha puntuacions</string>
+
 </resources>

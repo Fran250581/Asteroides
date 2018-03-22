@@ -22,7 +22,7 @@ public class AlmacenPuntuacionesArray implements AlmacenPuntuaciones  {
     }
 
     // Contrucción singleton
-    public static AlmacenPuntuacionesArray getInstance() {
+    static AlmacenPuntuacionesArray getInstance() {
         if (instancia == null) {
             synchronized (AlmacenPuntuacionesArray.class) {
                 if (instancia == null) {

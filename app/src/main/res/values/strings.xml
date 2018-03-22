@@ -50,4 +50,8 @@
     <string name="cabecera_multijugador">Multijugador</string>
     <string name="btn_configurar">Configurar</string>
 
+    <!-- Lista Puntuaciones. -->
+    <string name="hay_Puntuaciones">Puntuaciones</string>
+    <string name="no_hay_puntuaciones">No hay puntuaciones</string>
+
 </resources>
