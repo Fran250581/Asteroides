@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mostrarPreferencias();
         }
         if (v.getId()==R.id.botonConfigurar) {
-            Intent i = new Intent(this, Prefs.class);
+            Intent i = new Intent(this, PrefsActivity.class);
             startActivity(i);
         }
         if (v.getId()==R.id.botonAcercaDe) {
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void lanzarPreferencias(){
-        Intent i = new Intent(this, Prefs.class);
+        Intent i = new Intent(this, PrefsActivity.class);
         startActivity(i);
     }
 

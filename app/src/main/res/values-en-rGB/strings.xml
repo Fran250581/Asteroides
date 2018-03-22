@@ -35,5 +35,7 @@
     <string name="max_jugadores">Max players</string>
     <string name="tipo_conexion">Connection type</string>
     <string name="btn_configurar">Setup</string>
+    <string name="cabecera_general">General configuration</string>
+    <string name="cabecera_multijugador">Multiplayer</string>
 
 </resources>

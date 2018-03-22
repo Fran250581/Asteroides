@@ -35,5 +35,7 @@
     <string name="tipo_conexion">Tipus de connexió</string>
     <string name="fragmentos">Nombre de Fragments</string>
     <string name="btn_configurar">Configurar</string>
+    <string name="cabecera_general">Configuració general</string>
+    <string name="cabecera_multijugador">Multijugador</string>
 
 </resources>

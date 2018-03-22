@@ -45,4 +45,8 @@
     <string name="sW" translatable="false">W</string>
     <string name="sI" translatable="false">I</string>
 
+    <string name="cabecera_general">Configuración General</string>
+    <string name="cabecera_multijugador">Multijugador</string>
+    <string name="btn_configurar">Configurar</string>
+
 </resources>
