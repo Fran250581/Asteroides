@@ -17,6 +17,10 @@ public class AlmacenPuntuacionesArray implements AlmacenPuntuaciones  {
         return  puntuaciones;
     }
 
+    public boolean hayPuntuaciones() {
+        return (!puntuaciones.isEmpty());
+    }
+
     // Costructor privado para patrón singleton
     private AlmacenPuntuacionesArray() {
     }
