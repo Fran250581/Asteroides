@@ -1,12 +1,15 @@
 package com.example.fran.asteroides;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -17,12 +20,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button acercaDe = findViewById(R.id.botonAcercaDe);
         acercaDe.setOnClickListener(this);
+        Button configurar = findViewById(R.id.botonConfigurar);
+        configurar.setOnClickListener(this);
+        Button jugar = findViewById(R.id.botonJugar);
+        jugar.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent i = new Intent(this, AcercaDe.class);
-        startActivity(i);
+        if (v.getId()==R.id.botonJugar) {
+            mostrarPreferencias();
+        }
+        if (v.getId()==R.id.botonConfigurar) {
+            Intent i = new Intent(this, Prefs.class);
+            startActivity(i);
+        }
+        if (v.getId()==R.id.botonAcercaDe) {
+            Intent i = new Intent(this, AcercaDe.class);
+            startActivity(i);
+        }
     }
 
     @Override
@@ -41,6 +57,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.acercaDe:
                 lanzarAcercaDe();
                 break;
+            case R.id.config:
+                lanzarPreferencias();
+                break;
         }
         return true;
     }
@@ -48,6 +67,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void lanzarAcercaDe(){
         Intent i = new Intent(this, AcercaDe.class);
         startActivity(i);
+    }
+
+    public void lanzarPreferencias(){
+        Intent i = new Intent(this, Prefs.class);
+        startActivity(i);
+    }
+
+    //Botón Jugar
+    void mostrarPreferencias() {
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+        String s = "música: "+ pref.getBoolean("musica",true)
+                +", gráficos: " + pref.getString("graficos","?");
+        Toast.makeText(this, s, Toast.LENGTH_LONG).show();
+    }
+
+    //Botón Salir
+    public void salir(View v) {
+        finish();
     }
 
 }

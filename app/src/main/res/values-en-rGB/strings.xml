@@ -9,7 +9,6 @@
     <string name="Salir">EXIT</string>
 
     <!-- Menu key. -->
-    <string name="btn_configurar">Setup</string>
     <string name="btn_acerca_de">About …</string>
     <string name="buscar">Search</string>
 
@@ -21,5 +20,20 @@
     that launches this new View.</p>
     <p>Let's hope I wish you like it.</p>]]>
     </string>
+
+    <!-- User preferences. -->
+    <string name="tipo_graficos">Type of graphics</string>
+    <string name="rep_musica">Play music</string>
+    <string name="rep_musica2">Play background music</string>
+    <string name="bitmap">Bitmap</string>
+    <string name="tipo_graficos2">Choose the type of graphics rendering</string>
+    <string name="internet_movil">Mobile data</string>
+    <string name="fragmentos">Number of Fragments</string>
+    <string name="fragmentos2">In how many pieces is an asteroid divided</string>
+    <string name="multijugador">Multiplayer mode</string>
+    <string name="activar_multijugador">Enable multiplayer</string>
+    <string name="max_jugadores">Max players</string>
+    <string name="tipo_conexion">Connection type</string>
+    <string name="btn_configurar">Setup</string>
 
 </resources>

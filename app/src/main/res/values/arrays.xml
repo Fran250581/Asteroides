@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposGraficos">
+        <item>@string/vectorial</item>
+        <item>@string/bitmap</item>
+        <item>@string/tresD</item>
+    </string-array>
+    <string-array name="tiposGraficosValores">
+        <item>@string/i0</item>
+        <item>@string/i1</item>
+        <item>@string/i2</item>
+    </string-array>
+    <string-array name="tipoConexion">
+        <item >@string/bluetooth</item>
+        <item >@string/wifi</item>
+        <item >@string/internet_movil</item>
+    </string-array>
+    <string-array name="tipoConexionValores">
+        <item >@string/sB</item>
+        <item >@string/sW</item>
+        <item >@string/sI</item>
+    </string-array>
+</resources>

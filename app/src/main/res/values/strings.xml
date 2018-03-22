@@ -8,17 +8,41 @@
     <string name="Salir">SALIR</string>
 
     <!-- Tecla menú. -->
-    <string name="btn_configurar">Configurar</string>
     <string name="btn_acerca_de">Acerca de …</string>
     <string name="buscar">Buscar</string>
 
     <!-- Diálogo Acerca de... -->
-    <string name="acercaDe" translatable="false">
+    <string name="acercaDe">
     <![CDATA[<p>Esta <i>aplicación</i> está siendo desarrollada como
     ejemplo en el curso de <b>Android</b>.</p><p> Para lanzar esta
     pantalla de información se ha creado una nueva <u>Activity</u>
     que lanza esta nueva View.</p>
     <p> Esperemos que os guste.</p>]]>
     </string>
+
+    <!-- Preferencias de usuario. -->
+    <string name="rep_musica">Reproducir música</string>
+    <string name="rep_musica2">Se reproduce música de fondo</string>
+    <string name="tipo_graficos">Tipo de gráficos</string>
+    <string name="tipo_graficos2">Se escoge la representación de gráficos</string>
+    <string name="fragmentos">Número de Fragmentos</string>
+    <string name="fragmentos2">En cuantos trozos se divide un asteroide</string>
+    <string name="multijugador">Modo multijugador</string>
+    <string name="activar_multijugador">Activar multijugador</string>
+    <string name="max_jugadores">Máximo de jugadores</string>
+    <string name="tipo_conexion">Tipo de conexión</string>
+
+    <string name="vectorial" translatable="false">Vectorial</string>
+    <string name="bitmap">Mapa de bits</string>
+    <string name="tresD" translatable="false">3D</string>
+    <string name="i0" translatable="false">0</string>
+    <string name="i1" translatable="false">1</string>
+    <string name="i2" translatable="false">2</string>
+    <string name="bluetooth" translatable="false">Bluetooth</string>
+    <string name="wifi" translatable="false">Wifi</string>
+    <string name="internet_movil">Datos móviles</string>
+    <string name="sB" translatable="false">B</string>
+    <string name="sW" translatable="false">W</string>
+    <string name="sI" translatable="false">I</string>
 
 </resources>

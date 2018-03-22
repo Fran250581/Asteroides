@@ -21,6 +21,8 @@
             android:theme="@android:style/Theme.Dialog">
         </activity>
 
+        <activity android:name=".Prefs"/>
+
     </application>
 
 </manifest>

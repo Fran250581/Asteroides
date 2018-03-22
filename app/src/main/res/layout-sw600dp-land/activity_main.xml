@@ -25,13 +25,13 @@
 
         <TableRow>
             <Button
-                android:id="@+id/button01"
+                android:id="@+id/botonJugar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Jugar" />
 
             <Button
-                android:id="@+id/button02"
+                android:id="@+id/botonConfigurar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Configurar" />
@@ -45,10 +45,11 @@
                 android:text="@string/Acercade" />
 
             <Button
-                android:id="@+id/button04"
+                android:id="@+id/botonSalir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Salir" />
+                android:text="@string/Salir"
+                android:onClick="salir"/>
         </TableRow>
     </TableLayout>
 

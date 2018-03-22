@@ -9,7 +9,6 @@
     <string name="Salir">EIXIR</string>
 
     <!-- Tecla menú. -->
-    <string name="btn_configurar">Configurar</string>
     <string name="btn_acerca_de">Tocan a …</string>
     <string name="buscar">Cercar</string>
 
@@ -21,5 +20,20 @@
     que llança aquesta nova View.</p>
     <p> Esperem que us agradi.</p>]]>
     </string>
+
+    <!-- Preferències d'usuari. -->
+    <string name="tipo_graficos">Tipus de gràfics</string>
+    <string name="rep_musica">Reproduir música</string>
+    <string name="rep_musica2">Es reprodueix música de fons</string>
+    <string name="bitmap">Mapa de bits</string>
+    <string name="tipo_graficos2">Trieu la representació de grâfics</string>
+    <string name="internet_movil">Dades mòbils</string>
+    <string name="fragmentos2">En quants trossos es divideix un asteroide</string>
+    <string name="multijugador">Mode multijugador</string>
+    <string name="activar_multijugador">Activa multijugador</string>
+    <string name="max_jugadores">Màxim de jugadors</string>
+    <string name="tipo_conexion">Tipus de connexió</string>
+    <string name="fragmentos">Nombre de Fragments</string>
+    <string name="btn_configurar">Configurar</string>
 
 </resources>
