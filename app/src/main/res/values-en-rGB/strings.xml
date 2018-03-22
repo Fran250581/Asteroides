@@ -6,6 +6,7 @@
     <string name="Jugar">PLAY</string>
     <string name="Configurar">SETUP</string>
     <string name="Acercade">ABOUT …</string>
+    <string name="puntuaciones">SCORES</string>
     <string name="Salir">EXIT</string>
 
     <!-- Menu key. -->
