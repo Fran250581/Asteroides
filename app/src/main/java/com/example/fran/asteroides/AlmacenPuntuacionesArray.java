@@ -33,14 +33,18 @@ public class AlmacenPuntuacionesArray implements AlmacenPuntuaciones  {
                 if (instancia == null) {
                     instancia = new AlmacenPuntuacionesArray();
                     puntuaciones= new Vector<>();
+                    String s;
                     // De momento añadimos unos datos de prueba
-                    puntuaciones.add("123000 Pepe Domínguez");
-                    puntuaciones.add("111000 Pedro Martínez");
-                    puntuaciones.add("011000 Lola Pérez");
+                    for (int i = 1; i <= 100; i++) {
+                        s = Integer.toString(Math.round((float)Math.random()*10000)) +
+                                " Usuario " + Integer.toString(i);
+                        puntuaciones.add(s);
+                    }
                 }
             }
         }
         return instancia;
     }
+
 }
 
