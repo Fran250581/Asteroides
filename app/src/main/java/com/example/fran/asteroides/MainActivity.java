@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
         }
         if (v.getId()==R.id.botonPuntuaciones) {
-            Intent i = new Intent(this, Puntuaciones2.class);
+            Intent i = new Intent(this, Puntuaciones3.class);
             startActivity(i);
         }
     }

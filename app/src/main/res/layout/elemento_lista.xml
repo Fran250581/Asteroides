@@ -22,7 +22,6 @@
     <TextView android:id="@+id/subtitulo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/otro_texto"
         android:layout_toRightOf="@id/icono"
         android:layout_toEndOf="@id/icono"
         android:layout_below="@id/titulo"
