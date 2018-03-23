@@ -17,6 +17,7 @@ public class AlmacenPuntuacionesArray implements AlmacenPuntuaciones  {
         return  puntuaciones;
     }
 
+    @Override
     public boolean hayPuntuaciones() {
         return (!puntuaciones.isEmpty());
     }

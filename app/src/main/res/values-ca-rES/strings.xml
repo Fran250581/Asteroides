@@ -42,5 +42,7 @@
     <!-- Llista Puntuacions. -->
     <string name="hay_Puntuaciones">Puntuacions</string>
     <string name="no_hay_puntuaciones">No hi ha puntuacions</string>
+    <string name="desc_ico_asteroide">Descripció</string>
+    <string name="otro_texto">Un altre text</string>
 
 </resources>
